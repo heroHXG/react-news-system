@@ -1,0 +1,64 @@
+
+
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+
+.form-container {
+    position: fixed;
+    background: rgba(244, 233, 233, 0.7);
+    width: 500px;
+    height:300px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.login-title {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    color: white
+}
+
+
+
+/* particles */
+.github {
+  bottom: 10px;
+  right: 10px;
+  position: fixed;
+  border-radius: 10px;
+  background: #fff;
+  padding: 0 12px 6px 12px;
+  border: 1px solid #000;
+}
+
+.github a:hover,
+.github a:link,
+.github a:visited,
+.github a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.github img {
+  height: 30px;
+}
+
+.github #gh-project {
+  font-size: 20px;
+  padding-left: 5px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
